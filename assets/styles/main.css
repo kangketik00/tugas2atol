@@ -1,0 +1,87 @@
+/* Initialize */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.form-container {
+  padding: 30px;
+}
+
+.datepicker {
+  cursor: pointer;
+}
+
+i {
+  pointer-events: none;
+}
+
+.modal-custom {
+  max-width: 397px;
+}
+/* Nav */
+nav {
+  margin-bottom: 50px;
+}
+.nav-wrapper {
+  padding: 0 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-wrapper p {
+  font-size: 24px;
+}
+/* Cari Pegawai View  */
+#pegawai-view-cari {
+  margin-bottom: 200px;
+}
+
+#pegawai-view-cari .search-wrapper {
+  display: flex;
+  align-items: center;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+#pegawai-view-cari .search-wrapper input {
+  width: 30%;
+  margin-right: 30px;
+}
+#pegawai-view-cari .wrapper {
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  padding: 10px 30px;
+}
+
+/* Data Pegawai View Page */
+#pegawai-view {
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  border-radius: 8px;
+  padding: 10px 30px;
+  margin-top: 15px;
+  margin-bottom: 200px;
+}
+
+/* Login Page */
+#pegawai-login-form {
+  width: 100%;
+}
+
+#pegawai-login-form .wrapper {
+  width: 40%;
+  height: 60vh;
+  margin: 0 auto;
+  margin-top: 10vh;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  padding: 10px 30px;
+  border-radius: 8px;
+}
+
+#pegawai-login-form h3 {
+  color: rgba(36, 36, 36, 0.87);
+  text-align: center;
+}
+
+#pegawai-login-form .wrapper .btn-login {
+  width: 100%;
+}
